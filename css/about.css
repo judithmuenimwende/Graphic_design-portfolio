@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+.omar{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(../image/sky.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center;
+	height: 10vh;
+}
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top: 30px;
+}
+.main-nav li{
+	display:inline-block;
+}
+.main-nav li a{
+	color:#fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a{
+	border:1px solid white;
+}
+.main-nav li a:hover{ 
+	border:1px solid white;
+}
+.logo img {
+	width:100px;
+	height:auto;
+	float:left ;
+}
+body{
+	font-family:monospace;
+}
+/*.row{
+	max-width: 1200px;
+	margin:auto;
+}*/
+.gift{
+	background-image:linear-gradient(rgb(128,0,128,0.9),rgba(128,0,128,0.4)),url(../image/you.jpg);
+	width:1300px;
+	height:500px;
+	padding:20px;
+	margin:0 auto;
+}
+.gift p{
+	font-size:20px;
+	padding-bottom:50px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.joyce{
+	width:1350px;
+	height:500px;
+	background-color:rgba(0,0,255,0.1);
+	font-family: 'Roboto', sans-serif;
+}
+.fatma{
+	margin-top: 50px;
+	margin-left:380px;
+	width:200px;
+	font-size: 20px;
+	float:left;
+	padding:10px;
+}
+.rehema{
+	margin-top: 50px;
+	margin-right:380px;
+	width:200px;
+	font-size: 20px;
+	float:right;
+	padding:10px;
+}
+h2{
+	color:rgba(128,0,128,0.2);
+	letter-spacing: 3px;
+}
+p{
+	color:rgba(0,0,0,0.7);
+}
+.farida h1{
+	color:rgba(128,0,128,0.5);
+	letter-spacing: 3px;
+	font-family: 'Roboto', sans-serif;
+}
+
